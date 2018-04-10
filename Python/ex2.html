@@ -1,18 +1,31 @@
+<head>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css" />
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
+        <style>
+                li.L0, li.L1, li.L2, li.L3,
+                li.L5, li.L6, li.L7, li.L8 {
+                  list-style-type: decimal !important;
+                }
+                </style>
+</head>
+
+<body onload="PR.prettyPrint()">
+    
 <h1>Comments and Pound Characters</h1>
 
 <p> Comments are very important in your programs. They are used to tell you what something does in English, 
     and they also are used to disable parts of your program if you need to remove them temporarily. 
-    Here's how you use comments in Python:
-</div>
-<p><pre><code>
+    Here's how you use comments in Python:</p>
+    </div>
+<p><pre class="prettyprint lang-python linenums">
+<code># A comment, this is so you can read your program later 
+# Anything after the # is ignored by Python 
+    
+print "I could have code like this." # and the comment after is ignored 
+    
+# You can also use a comment to "disable" or comment out of a piece of code:
+# print "This won't run."
 
-    # A comment, this is so you can read your program later 
-    # Anything after the # is ignored by Python 
-
-    print "I could have code like this." # and the comment after is ignored 
-
-    # You can also use a comment to "disable" or comment out of a piece of code :
-    # print "This won't run."
-
-    print "This will run."
+print "This will run."
 </code></pre></p>
+</body>
