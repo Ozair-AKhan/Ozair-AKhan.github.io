@@ -1,0 +1,45 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
+    <style>
+            li.L0, li.L1, li.L2, li.L3,
+            li.L5, li.L6, li.L7, li.L8 {
+              list-style-type: decimal !important;
+            }
+            body{margin:40px
+            auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0
+            10px}h1,h2,h3{line-height:1.2}
+            </style>
+</head>
+<body onload="PR.prettyPrint()">
+<h1>Asking Questions</h1>
+<p> What we want to do now is get data into your programs. This is a little tricky because you 
+  have to do two things that may not make sense right away, but trust me and do it anyway. 
+</p>
+</div>
+<p> Most of what software does is the following:
+  <ol>
+    <li>Take some kind of input from a person</li>
+    <li>Change it</li>
+    <li>Print out something to show how it changed</li>
+  </ol></p>
+<pre class="prettyprint lang-python linenums">
+<code>print "How old are you?"
+age = raw_input()
+print "How tall are you?",
+height = raw_input()
+print "How much do you weigh?",
+weight = raw_input()
+
+print "So, you're %r old, %r tall and %r heavy." % (
+  age, height, weight)</code></pre>
+<h2>Study Drills</h2>
+<ul>
+<li> Go online and find out what Python's raw_input does.</li>
+<li> Can you find other ways to use it? Try some of the samples you find.</li>
+<li> Write another "form" like this to ask some other questions</li>
+<li> Related to escape sequences, try to find out why the last line has '6\ '2"' with that \' sequence 
+  See how the single-quote needs to be escaped because otherwise it would end the string?
+</li>
+</ul>
+</body>
