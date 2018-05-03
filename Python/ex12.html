@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
+    <style>
+            li.L0, li.L1, li.L2, li.L3,
+            li.L5, li.L6, li.L7, li.L8 {
+              list-style-type: decimal !important;
+            }
+            body{margin:40px
+            auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0
+            10px}h1,h2,h3{line-height:1.2}pre{font-size:12px}
+            </style>
+</head>
+<body onload="PR.prettyPrint()">
+<h1>Prompting People</h1>
+<p>For raw_input, you can also put in a prompt to show to a person so he knows what to type.
+    Put a string that you want for the prompt inside the (). This prompts the user with "Name?"
+    and puts the result into the variable y. This is how you ask someone question and get the 
+    answer. 
+    This means we can completely rewrite our previous exercise using just raw_input to do all the 
+    prompting. 
+</p>
+</div>
+<pre class="prettyprint lang-python linenums">
+<code>age = raw_input("How old are you? ")
+      height = raw_input("How tall are you? ")
+      weight = raw_input("How much do you weigh? ")
+
+      print "So, you're %r old, %r tall and %r heavy." % (
+          age, height, weight
+      )
+</code></pre>
+</div>
+<h1>STUDY DRILLS</h1>
+<ol>
+    <li> In terminal, where you normally run python to run your scripts, type pydoc raw_input. 
+         Read what it says. If you're on Windows try python -m pydoc raw_input instead.
+    </li>
+    <li> Get out of pydoc by typing q to quit.</li>
+    <li> Look online for what the pydoc command does.</li>
+    <li> Use pydoc to also read about open, file, os, and sys. It's alright if you do not understand those;
+        Just read through and take notes about interesting thngs. 
+    </li>
+</ol>
+
+</body>
+
+</html>
