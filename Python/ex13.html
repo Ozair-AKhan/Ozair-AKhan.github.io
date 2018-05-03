@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
+    <style>
+        li.L0, li.L1, li.L2, li.L3,
+        li.L5, li.L6, li.L7, li.L8{
+            list-style-type: decimal !important;
+        }
+        body{margin:40px 
+        auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0
+        10px}h1,h2,h3{line-height:1.2}pre{font-size:12px}
+    </style>
+</head>
+<body onload="PR.prettyPrint()">
+
+    <h1>Parameters, Unpacking Variables</h1>
+</div>
+<pre class="prettyprint lang-python linenums">
+<code>from sys import argv # what you just imported is called a module
+
+script, height, weight = argv
+        
+print "What's your height bitch? "
+height = raw_input("Height?")
+        
+print "And your weight?"
+weight = raw_input("->")
+        
+print "The script is called: ", script
+print "So you're height is ", height
+print "And your bitch ass weight is:", weight 
+</code>
+</pre>
+
+<h2>Study Drills</h2>
+<ol>
+    <li> Try giving fewer than three arguments to your script. See that error you get? See if you can explain it.</li>
+    <li> Write a script that has fewer arguments and one that has more. Make sure you give the unpacked variables good names.</li>
+    <li> Combine raw_input with argv to make a script that gets more input from a user</li>
+    <li> Remember that modules give you features. Modules, Modules. Remember this because we'll need it later.</li>
+</ol>
+
+</body>
+
+
+</html>
